@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Haraldur Birgisson">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paintball Hella - Location</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="img/PaintballHella.png">
+            </div>
+
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li class="active"> <a href="#">Location</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div id="map"></div>
+
+        <script>
+            function initMap() {
+                var location = {lat: 63.824029, lng: -20.402037};
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 4,
+                    center: location
+                });
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2C3ip52aont-Yc4Ory41NZu18PTPCke4&callback=initMap"
+        type="text/javascript"></script>
+
+    </header>
+</body>
+</html>
