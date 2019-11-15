@@ -83,6 +83,18 @@ ul li.active a {
     color: black;
 }
 
+.socialMedia {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialFB {
+    width: 150px;
+    height: auto;
+}
+
 /*  Contact  */
 
 #contact1 {
@@ -239,6 +251,18 @@ ul li.active a {
     color: white;
     font-size: 12px;
 }
+
+.socialMedia {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialFB {
+    width: 150px;
+    height: auto;
+}
 }
 
 /* Iphone 6+ */
@@ -350,6 +374,18 @@ ul li.active a {
 #aboutText p {
     color: white;
     font-size: 16px;
+}
+
+.socialMedia {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialFB {
+    width: 150px;
+    height: auto;
 }
 
 }
@@ -469,8 +505,20 @@ ul li.active a {
     color: white;
     font-size: 20px;
 }
+
+.socialMedia {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.socialFB {
+    width: 150px;
+    height: auto;
+}
+}
+ /* Screen */
 @media only screen and (min-width: 1200px) {
     ul {
         float: right;
