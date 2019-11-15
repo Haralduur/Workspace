@@ -143,6 +143,19 @@ ul li.active a {
     color: white;
 }
 
+/* Copyright */
+.copyright {
+    position: absolute;
+    top: 93%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright p {
+    color: white;
+    font-size: 6px;
+}
+
 /* Iphone 5 */
 @media only screen and (min-width: 320px) {
     ul {
@@ -262,6 +275,19 @@ ul li.active a {
 .socialFB {
     width: 150px;
     height: auto;
+}
+
+/* Copyright */
+.copyright {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright p {
+    color: white;
+    font-size: 6px;
 }
 }
 
@@ -386,6 +412,19 @@ ul li.active a {
 .socialFB {
     width: 150px;
     height: auto;
+}
+
+/* Copyright */
+.copyright {
+    position: absolute;
+    top: 97%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright p {
+    color: white;
+    font-size: 6px;
 }
 
 }
@@ -517,6 +556,19 @@ ul li.active a {
     width: 150px;
     height: auto;
 }
+
+/* Copyright */
+.copyright {
+    position: absolute;
+    top: 97%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright p {
+    color: white;
+    font-size: 10px;
+}
 }
  /* Screen */
 @media only screen and (min-width: 1200px) {
@@ -642,6 +694,19 @@ ul li.active a {
 #aboutText p {
     color: white;
     font-size: 15px;
+}
+
+/* Copyright */
+.copyright {
+    position: absolute;
+    top: 96%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright p {
+    color: white;
+    font-size: 12px;
 }
 }
 
