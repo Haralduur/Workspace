@@ -349,6 +349,60 @@ input {
     color: white;
     font-size: 6px;
 }
+
+/* BookNow */
+.bookNowTitle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bookNowTitle h1 {
+    color: white;
+    font-size: 16px;
+}
+
+.emailSender {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 35px;
+}
+
+.submitBtn {
+    position: absolute;
+    left: 20%;
+    background: white;
+    border-color: transparent;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
 }
 
 /* Iphone 6+ */
@@ -485,6 +539,66 @@ input {
 .copyright p {
     color: white;
     font-size: 6px;
+}
+
+/* BookNow */
+.bookNowTitle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bookNowTitle h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.emailSender {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 35px;
+}
+
+.submitBtn {
+    position: absolute;
+    left: 25%;
+    background: white;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
+.submitBtn:hover {
+    background: #ff5722;
+    color: black;
+    cursor: pointer;
+
 }
 
 }
@@ -629,6 +743,67 @@ input {
     color: white;
     font-size: 10px;
 }
+
+/* BookNow */
+.bookNowTitle {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bookNowTitle h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.emailSender {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+.submitBtn {
+    position: absolute;
+    left: 35%;
+    background: white;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
+.submitBtn:hover {
+    background: #ff5722;
+    color: black;
+    cursor: pointer;
+
+}
+
 }
  /* Screen */
 @media only screen and (min-width: 1200px) {
@@ -768,5 +943,66 @@ input {
     color: white;
     font-size: 12px;
 }
+
+/* BookNow */
+.bookNowTitle {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bookNowTitle h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.emailSender {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+.submitBtn {
+    position: absolute;
+    left: 35%;
+    background: white;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
+.submitBtn:hover {
+    background: #ff5722;
+    color: black;
+    cursor: pointer;
+
+}
+
 }
 
