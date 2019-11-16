@@ -23,9 +23,24 @@
             </ul>
         </div>
         
-        <div class="title">
+        <div class="bookNowTitle">
                 <h1>Book Now!</h1>
             </div>
+
+        <div class="emailSender">
+            <form id="contact-form" method="POST" action="contactform.php">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <br>
+                <input name="mail" type="text" class="form-control" placeholder="Your Email" required>
+                <br>
+                <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="Message" rows="4"></textarea>
+                <br>
+                <button class="submitBtn" type="submit" name="submit">SEND MAIL</button>
+                
+            </form>
+        </div>
 
             <div class="copyright">
                 <p>Copyright &copy; Paintball Hella - 2020</p>
